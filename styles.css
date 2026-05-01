@@ -1,0 +1,47 @@
+#header{
+    border-bottom:1px solid rgb(133, 125, 125);
+    
+}
+#button{
+ text-align: center;
+ height: 50px;
+ border-color: black;
+}
+#button :hover{
+    color: white;
+    background-color: orange;
+
+}
+.cross-icon {
+    position:fixed;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.cross-icon::before, .cross-icon::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 20px;
+    height: 3px;
+    background-color: #333;
+    border-radius: 2px;
+    transform-origin: center;
+}
+
+.cross-icon::before {
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.cross-icon::after {
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
+#menu{
+    text-align:center;
+}
+#menu img{
+    height: 200px;
+    width:150px;
+}

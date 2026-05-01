@@ -1,0 +1,44 @@
+#header {
+    border-bottom: 1px solid rgb(133, 125, 125);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+body {
+    width: 100%;
+    font-family: Arial, sans-serif;
+}
+
+#button {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#button input {
+    height: 35px;
+    width: 25%;
+    cursor: pointer;
+}
+
+#button input:hover {
+    color: white;
+    background-color: orange;
+}
+
+#menu {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#menu img {
+    height: 200px;
+    width: 200px;
+}
+
+#header input {
+    color: rgb(5, 5, 23);
+    padding: 5px 15px;
+    cursor: pointer;
+}
